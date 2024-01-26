@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 2rem;
+    text-align: center;
+    height: 10rem;
+    color: white;
+}
+
+.counter-box {
+    text-align: center;
+    background-color:blue;
+    border: 2px solid white;
+    width: 20%;
+    padding: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+button{
+    background-color: black;
+    color: white;
+}
+
