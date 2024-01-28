@@ -9,6 +9,9 @@ import Effect from './Effect'
 import Reducer from './Reducer'
 import Footer from './Footer'
 import Callback from './Callback'
+import Ref from './Ref'
+import Sec from './Sec'
+import Memo from './Memo'
 export default function App() {
   return (
     <BrowserRouter>
@@ -26,6 +29,9 @@ export default function App() {
       <Reducer/> 
       <Footer/>
       <Callback/>
+      <Ref/>
+      <Sec/>
+      <Memo/>
     </BrowserRouter>
 
   )
